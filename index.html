@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121177818-1"></script>
+  <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-121177818-1');
+  </script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Augmented-reality application for audio tour, local neighborhood experience discovery and urban exploration">
+  <meta name="author" content="Kanetus Team">
+  <meta name="keyword" content="augmented reality, audio, discovery, app, application, design, tour, guide, music, sound, location, GPS, local, geolocation, crowdsource">
+  <title>Kanetus: Audio Tour for Everyday Places</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+  <!-- Plugin CSS -->
+  <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/new-age.min.css" rel="stylesheet">
+
+  <!--Favicons dir-->
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/site.webmanifest">
+  <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#f5576c">
+  <link rel="shortcut icon" href="img/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#f5576c">
+  <meta name="msapplication-config" content="img/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#f5f5f5">
+
+
+</head>
+
+<body id="page-top">
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a href="#">
+     <img src="img/whitelogo.png" id="logo" class="img-fluid" alt="logo">
+    </a>
+    <a class="navbar-brand js-scroll-trigger" href="#page-top"
+       onclick="gtag('event', 'click', {
+          'event_category' : 'nav',
+          'event_label' : 'brand'
+          });">Kanetus</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#download"
+             onclick="gtag('event', 'click', {
+             'event_category' : 'nav',
+             'event_label' : 'download'
+          });">Download</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#features"
+             onclick="gtag('event', 'click', {
+          'event_category' : 'nav',
+          'event_label' : 'features'
+          });">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#contact"
+             onclick="gtag('event', 'click', {
+             'event_category' : 'nav',
+             'event_label' : 'signup'
+          });">Sign Up</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#contact"
+             onclick="gtag('event', 'click', {
+          'event_category' : 'nav',
+          'event_label' : 'contact'
+          });">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="masthead">
+  <div class="container h-100">
+    <div class="row h-100">
+      <div class="col-lg-7 my-auto">
+        <div class="header-content mx-auto">
+          <h1 class="mb-5">An audio tour for the entire world that anyone can listen and contribute to</h1>
+          <a onclick="gtag('event', 'click', {
+          'event_category' : 'engagement',
+          'event_label' : 'start'
+          });"
+             href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Learn More</a>
+            <!--<h3>Join our email list for beta access</h3>-->
+          <!--<form action="https://kanetus.us18.list-manage.com/subscribe/post?u=431b11afe31adaad3e3bc5a00&amp;id=451aa83844" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>-->
+              <!--<div class="signup">-->
+                <!--&lt;!&ndash; real people should not fill this in and expect good things - do not remove this or risk form bot signups&ndash;&gt;-->
+                <!--<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_431b11afe31adaad3e3bc5a00_451aa83844" tabindex="-1" value=""></div>-->
+                <!--<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>-->
+
+                <!--<div class="clear"><input type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe" class="button"-->
+                                          <!--onclick="gtag('event', 'click', {-->
+             <!--'event_category' : 'sign-up',-->
+             <!--'event_label' : 'email list'-->
+          <!--});"></div>-->
+              <!--</div>-->
+            <!--</form>-->
+        </div>
+      </div>
+      <div class="col-lg-5 my-auto">
+        <div class="device-container">
+          <div class="device-mockup iphone6_plus portrait white">
+            <div class="device">
+              <div class="screen">
+                <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                <img src="img/demo-screen-1.JPG" class="img-fluid" alt="App screenshot with map and mediaplayer showing user location">
+              </div>
+              <div class="button">
+                <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="download bg-primary text-center" id="download">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 mx-auto">
+        <h2 class="section-heading">Try it now for free!</h2>
+        <p>Beta Version</p>
+        <br>
+        <div class="badges">
+          <a class="badge-link" href="https://play.google.com/store/apps/details?id=com.kanetus.app"
+             onclick="gtag('event', 'click', {
+             'event_category' : 'download',
+             'event_label' : 'google play'
+          });"
+             ><img src="img/google-play-badge.svg" alt="Google Play Badge for app download"></a>
+          <a class="badge-link"
+             href="https://itunes.apple.com/us/app/kanetus/id1438139566?mt=8"
+             onclick="gtag('event', 'click', {
+            'event_category' : 'download',
+            'event_label' : 'apple store'
+          });">
+            <img src="img/app-store-badge.svg" alt="Apple Store Badge for app download"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="features" id="features">
+  <div class="container">
+    <div class="section-heading text-center" id="p">
+      <h2>Stories about places</h2>
+      <p class="text-muted"><br>Every building you pass through is a special place for someone <br>
+        Listen to stories, facts, and favorite memories from people who care most about that place</p>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 my-auto">
+        <div class="device-container">
+          <div class="device-mockup iphone6_plus portrait white">
+            <div class="device">
+              <div class="screen">
+                <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                <img src="img/demo-screen-2.JPG" class="img-fluid" alt="App screenshot with content card showing audio title, author and description">
+              </div>
+              <div class="button">
+                <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-8 my-auto">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="feature-item">
+                <i class="icon-cursor text-primary"></i>
+                <h3>Local</h3>
+                <p class="text-muted">Learn about your surrounding through the people who know it best</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="feature-item">
+                <i class="icon-heart text-primary"></i>
+                <h3>Personal</h3>
+                <p class="text-muted">Hear people's favorite stories and memories about each area</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="feature-item">
+                <i class="icon-playlist text-primary"></i>
+                <h3>Musical</h3>
+                <p class="text-muted">Experience each stories with added audio effects</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="feature-item">
+                <i class="icon-present text-primary"></i>
+                <h3>Open</h3>
+                <p class="text-muted">Share your own stories for others to enjoy</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--<section class="cta">-->
+  <!--<div class="cta-content">-->
+    <!--<div class="container">-->
+      <!--<div class="vid-container">-->
+        <!--<iframe class="video" src="https://www.youtube.com/embed/p32eiYDoa8A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>-->
+        <!--</iframe>-->
+      <!--</div>-->
+      <!--<h2>Stop waiting.<br>Start living.</h2>-->
+      <!--<a href="#contact" onclick="gtag('event', 'click', {-->
+          <!--'event_category' : 'nav',-->
+          <!--'event_label' : 'cta'-->
+          <!--});" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a>-->
+      <!--&lt;!&ndash;<div class="overlay"></div>&ndash;&gt;-->
+<!--</section>-->
+
+<section class="download bg-secondary text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 mx-auto">
+        <h2 class="section-heading">Still need a visual?</h2>
+        <p>Here's a quick demo we put together!</p>
+        <div id="videoWrapper" style="position: relative;
+        margin-top: 50px;
+        padding-bottom: 56.25%; /* 16:9 */
+        padding-top: 25px;
+        height: 0;">
+          <iframe width="560" height="349" style="position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;" src="https://www.youtube.com/embed/p32eiYDoa8A" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Begin MailChimp Signup Form -->
+<!--<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">-->
+<div id="mc_embed_signup">
+  <form action="https://kanetus.us18.list-manage.com/subscribe/post?u=431b11afe31adaad3e3bc5a00&amp;id=451aa83844" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+      <h1 for="mce-EMAIL">Join The Adventure!</h1>
+      <p>We are now in open beta. Join our email list for behind-the-scenes access!</p>
+        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_431b11afe31adaad3e3bc5a00_451aa83844" tabindex="-1" value=""></div>
+      <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"
+      onclick="gtag('event', 'click', {
+             'event_category' : 'sign-up',
+             'event_label' : 'email list'
+          });"></div>
+    </div>
+  </form>
+</div>
+
+
+<!--End mc_embed_signup-->
+
+
+<section class="contact bg-primary" id="contact">
+  <div class="container">
+    <!--<h2>We-->
+      <!--<i class="fa fa-heart"></i>-->
+      <!--new friends!</h2>-->
+    <ul class="list-inline list-social">
+
+      <li class="list-inline-item social-twitter">
+        <a onclick="gtag('event', 'click', {
+          'event_category' : 'social',
+          'event_label' : 'twitter'
+          });"
+           href="https://twitter.com/kanetus" target="_blank" >
+          <i class="fa fa-twitter"></i>
+        </a>
+      </li>
+        <li class="list-inline-item social-linkedin">
+            <a onclick="gtag('event', 'click', {
+          'event_category' : 'social',
+          'event_label' : 'linkedIn'
+          });"
+               href="https://www.linkedin.com/company/kanetus/" target="_blank" >
+                <i class="fa fa-linkedin"></i>
+            </a>
+        </li>
+      <li class="list-inline-item social-facebook">
+        <a onclick="gtag('event', 'click', {
+          'event_category' : 'social',
+          'event_label' : 'facebook'
+          });" href="https://www.facebook.com/kanetus/" target="_blank" >
+          <i class="fa fa-facebook"></i>
+        </a>
+      </li>
+    </ul>
+    <p>Feel free to email us at <a href="mailto:kanetusapp@gmail.com?Subject=Hello!" target="_blank">kanetusapp@gmail.com</a> with any questions :)</p>
+  </div>
+
+  <div id="downloadModal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <div>
+          <img class="modal-img" src="img/modal-download.jpg"><br>
+          <div class="modal-text">
+            <h1>Coming real soon to iOS!</h1>
+            <p>We're putting on some finishing touches. Join the email list to get notified on the release!</p>
+            <a href="http://eepurl.com/dAm2ML" class="btn btn-outline btn-xl js-scroll-trigger">Let's Go!</a>
+            <!--data-dismiss="modal"-->
+            <!--onclick="$('#contact').on('hidden.bs.modal', function (e) {-->
+            <!--window.location.href='/#contact'})"-->
+          </div>
+        </div>
+      </div>
+        <!--<div class="modal-footer">-->
+          <!--<button type="button" class="btn btn-default" data-dismiss="modal">Gotcha</button>-->
+        <!--</div>-->
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>&copy; Kanetus 2018. All Rights Reserved.</p>
+    <ul class="list-inline">
+      <li class="list-inline-item">
+        <a target="_blank" href="privacy.html">Privacy Policy</a>
+      </li>
+      <li class="list-inline-item">
+        <a  target="_blank" href="terms.html">Terms of Use</a>
+      </li>
+      <li class="list-inline-item">
+        <a  target="_blank" href="mobile.html">Mobile App Privacy Policy</a>
+      </li>
+    </ul>
+  </div>
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom scripts for this template -->
+<script src="js/new-age.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+// Styling for the masthead
+header.masthead {
+    position: static;
+
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+
+    color: white;
+    background: url('../img/cross-stripes.png'), $theme-secondary;
+    background: url('../img/cross-stripes.png'), -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
+    background: url('../img/cross-stripes.png'), linear-gradient(to left, $theme-secondary, $theme-tertiary);
+    background-attachment: fixed;
+    background-position: center;
+    .header-content {
+        position: relative;
+        max-width: 500px;
+        margin-bottom: 100px;
+        text-align: center;
+        h1 {
+            font-size: 30px;
+        }
+    }
+    .device-container {
+        max-width: 325px;
+        margin-right: auto;
+        margin-left: auto;
+        background-position: center;
+        .screen img {
+            border-radius: 3px;
+        }
+    }
+    @media (min-width: 992px) {
+        height: 100vh;
+        min-height: 775px;
+        padding-top: 0;
+        padding-bottom: 0;
+        .header-content {
+            margin-bottom: 0;
+
+            text-align: left;
+            h1 {
+                font-size: 50px;
+            }
+        }
+        .device-container {
+            max-width: 325px;
+        }
+    }
+    .signup {
+        display: inline-block;
+        width: 100%;
+        overflow: hidden;
+
+        ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: whitesmoke;
+            opacity: 1; /* Firefox */
+            font-size: 18px;
+        }
+        input {
+            color: white;
+            outline: none;
+            padding: 12px;
+            margin: 5px 0 22px 0;
+            display: inline;
+            border: solid;
+            background: transparent;
+            font-size: 18px;
+            overflow: hidden;
+            float: left;
+
+        }
+        .email {
+            background-color: transparent;
+            color: whitesmoke;
+            outline: none;
+            width: 70%;
+            float: left;
+            padding-left: 20px;
+            border-radius: 50px 0 0 50px;
+            overflow: hidden;
+
+        }
+        .button {
+            background-color: whitesmoke;
+            color: $theme-tertiary;
+            border: solid whitesmoke;
+            text-align: center;
+            cursor: pointer;
+            width: 30%;
+            border-radius: 0 50px 50px 0;
+
+        }
+        .button:hover{
+            background-color: transparent;
+            color: whitesmoke;
+        }
+    }
+}
